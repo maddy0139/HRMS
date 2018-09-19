@@ -1,0 +1,23 @@
+.app-content {
+  margin-top: 64px;   
+}
+h4{
+  font-size: 1rem !important;
+}
+.col-md-6{
+  float: left;
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .arrow:before{
+  content: "\E627" !important;
+  font-size: 18px;
+}
+.ant-collapse > .ant-collapse-item-active > .ant-collapse-header .arrow:before{
+  content: "\E624" !important;
+  transform: rotate(90deg);
+  font-size: 18px;
+}
+.ant-collapse-borderless > .ant-collapse-item > .ant-collapse-content
+{
+  background-color: #e6e4e4 !important;
+}
+
