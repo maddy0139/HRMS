@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import { Avatar, Collapse, Icon } from 'antd';
 import './Profile.css';
 import EmployementDetails from './EmployementDetails';
+import Address from './Address';
 const Panel = Collapse.Panel;
 const customPanelStyle = {
     background: '#c3c3c3',
@@ -98,7 +99,9 @@ class PersonalProfile extends Component
                             <p>text</p>
                         </Panel>
                         <Panel header="Contact Details" icon="plus" key="3" style={customPanelStyle}>
-                            <p>text</p>
+                            <Address type="Current Address"/>
+                            <Address type="Permanent Address"/>
+                            <Address type="Emergency Contact"/>
                         </Panel>
                         <Panel header="Education And Certification" icon="plus" key="4" style={customPanelStyle}>
                             <p>text</p>
